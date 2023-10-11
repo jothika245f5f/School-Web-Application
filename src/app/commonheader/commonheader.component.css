@@ -1,0 +1,13 @@
+.wrapper{
+  padding: 10px !important;
+}
+
+.navbar {
+  padding:5px;
+  margin-top:0px;
+  background-position: 0 0;
+  background-size: 300%;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-name: menugradientanimation;
+}

@@ -1,0 +1,13 @@
+
+h1{
+    text-align: center;
+    font-weight: 800;
+    font-style: italic;
+    color: rgb(110, 110, 229);
+}
+ul{
+    display:table;
+    border: 2px solid rgb(139, 195, 235);
+    margin: 0 auto;
+   
+}

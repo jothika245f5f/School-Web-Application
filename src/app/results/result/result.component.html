@@ -1,0 +1,117 @@
+
+
+
+<br>
+<br>
+<br>
+<br><div class="wraper">
+  
+  
+  <h1>Student Name: {{name}}</h1>  
+   
+</div>
+
+<!-- 
+<table class="table table-bordered" >
+
+    <thead>
+     
+      <br>
+      <tr>
+        <th scope="col">si no</th>
+        <th scope="col">Subjects</th>
+        <th scope="col">Marks</th>
+        
+        
+      </tr>
+      
+    </thead>
+   
+    <tbody>
+      <tr class="clickable-row" data-href="#">
+        <th   scope="row">1</th>
+        <td>Tamil</td>
+        <td >{{random[0]}}/100 </td>
+        
+      </tr>
+    
+      <tr>
+        <th scope="row">2</th>
+        <td>English</td>
+        <td>{{random[1]}}/100</td>
+        
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Maths</td>
+        <td>{{random[2]}}/100</td>
+        
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Science</td>
+        <td>{{random[3]}}/100</td> 
+        
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td>Social</td>
+        <td>{{random[4]}}/100</td> 
+        
+      </tr>
+      <tr>
+        <th scope="rowgroup">Total</th>
+        <td>{{total}}</td>
+        <td></td>
+        
+      </tr>
+      
+     
+    </tbody>
+   </table>  
+    -->
+ 
+   <table class="table table-bordered">
+    <tbody>
+      <tr>
+        <td>SI</td>
+        <td>Subject</td>
+        <td>Marks</td>
+      </tr>
+      <tr>
+        <td><a routerLink="/detail" class="row-link"></a>1</td>
+        <td><a routerLink="/detail"  class="row-link">Tamil</a></td>
+        <td><a routerLink="/detail"  class="row-link">{{random[0]}}</a></td>
+      </tr>
+      <tr>
+        <td><a routerLink="/detail" class="row-link"></a>2</td>
+        <td><a routerLink="/detail"  class="row-link">English</a></td>
+        <td><a routerLink="/detail"  class="row-link">{{random[1]}}</a></td>
+      </tr>
+      <tr>
+        <td><a routerLink="/detail" class="row-link"></a>3</td>
+        <td><a routerLink="/detail" class="row-link">Maths</a></td>
+        <td><a routerLink="/detail"  class="row-link">{{random[2]}}</a></td>
+      </tr>
+      <tr>
+        <td><a routerLink="/detail" class="row-link"></a>4</td>
+        <td><a routerLink="/detail"  class="row-link">Science</a></td>
+        <td><a routerLink="/detail"  class="row-link">{{random[3]}}</a></td>
+      </tr>
+      <tr>
+        <td><a routerLink="/detail" class="row-link"></a>5</td>
+        <td><a routerLink="/detail"  class="row-link">Social</a></td>
+        <td><a routerLink="/detail"  class="row-link">{{random[4]}}</a></td>
+      </tr>
+      <tr>
+        <td>Total</td>
+        <td>{{total}}</td>
+        <td  class="row-link">{{result}}</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+
+  
+  <router-outlet></router-outlet>

@@ -1,0 +1,105 @@
+
+<br>
+<br>
+<br>
+<div class="input-group">
+  <input #search class="form-control py-2 border-right-0 border" type="search" placeholder="Search">
+  <button class="primary" type="button" (click)="cancel(search.value)">cancel</button>
+  <button class="primary" type="button" (click)="filterData(search.value)">Search</button>
+
+  <!-- <div class="input-group-append">
+      <button class="input-group-text" id="btnGroupAddon2" type="button" (click)="cancel(search.value)>
+      </button>
+  </div> -->
+</div>
+<br>
+<br>
+<table id="stData" mat-table [dataSource]="dataSource">
+<ng-container matColumnDef="Name">
+    <th mat-header-cell *matHeaderCellDef>  Name </th>
+    <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Age">
+    <th mat-header-cell *matHeaderCellDef> Age </th>
+    <td mat-cell *matCellDef="let element"> {{element.age}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Sex">
+    <th mat-header-cell *matHeaderCellDef> Sex</th>
+    <td mat-cell *matCellDef="let element"> {{element.sex}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Nationality">
+    <th mat-header-cell *matHeaderCellDef> Nationality </th>
+    <td mat-cell *matCellDef="let element"> {{element.nationality }} </td>
+  </ng-container>
+  <ng-container matColumnDef="Address">
+    <th mat-header-cell *matHeaderCellDef> Address </th>
+    <td mat-cell *matCellDef="let element"> {{element.address}} </td>
+  </ng-container>
+
+  <!-- <ng-container matColumnDef="id">
+    <th mat-header-cell *matHeaderCellDef> id </th>
+    <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+  </ng-container> -->
+
+  <ng-container matColumnDef="Delete">
+    <th mat-header-cell *matHeaderCellDef> Delete </th>
+    <td mat-cell *matCellDef="let element"> 
+      <Button (click)="deleteStudent(element.id)" style="height: 34px; width: 44px;">
+        <img src="../../assets/images/trash3-fill.svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16"> 
+   </Button>
+      
+       </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Update">
+    <th mat-header-cell *matHeaderCellDef> Update </th>
+    <td mat-cell *matCellDef="let element"> 
+      <Button (click)="updateStudent(element.id)" style="height: 34px; width: 44px;">
+        <img  src="../../assets/images/pencil-fill.svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16"> 
+   </Button>
+      
+       </td>
+  </ng-container>
+
+
+  <tr mat-header-row *matHeaderRowDef="coloums"></tr>
+  <tr mat-row *matRowDef="let row; columns: coloums;"></tr>
+</table>
+
+<mat-paginator length={{dataLength}}
+              [pageSize]="5"
+              [pageSizeOptions]="[2,5,10]"
+              aria-label="Select page">
+</mat-paginator>
+
+<!-- 
+
+    <table  class="table table-borderless table-dark">
+      <thead>
+        <tr>
+          <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col">Sex</th>
+            <th scope="col">Nationality</th>
+            <th scope="col">Address</th>
+        </tr>
+      </thead>
+
+      <tbody *ngFor="let item of setof">
+        <tr>
+         
+          <td>{{item.id}}</td>
+          <td>{{item.name}}</td>
+          <td>{{item.age}}</td>
+          <td>{{item.sex}}</td>
+          <td>{{item.nationality}}</td>
+          <td>{{item.address}}</td> 
+        </tr>
+
+        
+      </tbody>
+    </table> -->

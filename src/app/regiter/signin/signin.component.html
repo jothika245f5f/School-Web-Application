@@ -1,0 +1,40 @@
+
+
+
+<p style="text-align: center; margin-top: 3rem; font-size: large; color: darkblue;">WELCOME TO ABC SCHOOL</p>
+<div *ngIf="signSubmitMsg===true" class="alert alert-success alert-dismissible fade show">
+    <strong>Success!</strong>SignIn  successfully.Use credintial to Login
+</div>
+<div class="wrapper">
+    <div class="block">
+        <form [formGroup]="signin" id="login" novalidate> 
+            <h2>SignIN</h2>
+            <h6 style="color: red;">*If you already register please Login</h6>
+            <input type="text" class="inp" formControlName="name" placeholder="enter name" >
+            
+            <div *ngIf="name.invalid && (name.dirty || name.touched)" class="alert" style="margin: 0; padding: 0;">
+                <div *ngIf="name.errors?.['required']" style="color: red;margin-right: 15rem;
+                margin-top: -1rem;">
+                   <h6>*Name is required.</h6>
+               </div>
+               </div>
+
+            <input type="text" placeholder="enter password" class="inp" formControlName="password">
+
+            <div *ngIf="password.invalid && (password.dirty || password.touched)" class="alert" style="margin: 0; padding: 0;">
+                <div *ngIf="password.errors?.['required']" style="color: red;margin-right: 14rem;
+                margin-top: -1rem;">
+                  <h6> *Password is required.</h6>
+               </div>
+               </div>
+
+            <button class="btns"  (click)="signIn(signin.value)"  [disabled]="signin.invalid">SingIn </button>
+
+            <button class="btns"  (click)="login()">Login </button>
+
+        </form>
+
+       
+    
+  
+</div>

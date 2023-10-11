@@ -1,0 +1,60 @@
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 58%;
+    /* margin-right: 13rem; */
+    /* margin-left: 18rem; */
+    margin: 3rem;
+}
+#stData{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    width: 100%;
+}
+
+#stData td,#stuData th{
+ 
+    padding: 8px;
+}
+#stData tr:nth-child(even){background-color: rgb(241, 247, 244);}
+
+ /* #stData tr:hover{background-color: rgb(94, 100, 104);} */
+
+#stData th{
+    padding-top:12px;
+    padding-bottom: 12px;
+    text-align: left;
+   color: black;
+   font-size: large;
+    
+}
+th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+    padding: 0;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+.mat-cell, .mat-footer-cell {
+    color: rgba(44, 43, 43, 0.87);
+}
+
+table {
+    width: 100%; 
+    overflow-x: auto;
+     overflow-y: hidden; 
+    min-width: 500px; 
+    border-collapse: collapse;
+    border: 3px solid rgb(237, 235, 235);
+  }
+  /* th.mat-header-cell {
+    text-align: left;
+    max-width: 300px;
+    border: 3px solid rgb(107, 141, 235);
+  } */
+  .pagination{
+    margin-left: 81rem;
+    padding: 34px;
+  }

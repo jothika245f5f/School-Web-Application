@@ -1,0 +1,51 @@
+/* tbody, td, tfoot, th, thead, tr {
+    border-color: deepskyblue;
+} */
+li{
+    text-align: center;
+    font-weight: 600;
+    font-style: oblique;
+}
+h1{
+    text-align: center;
+    font-weight: 800;
+    font-style: italic;
+    
+}
+
+/*.............*/
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+  }
+  
+  a {
+    color: #07070c;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  td {
+    border: 2px solid;
+    position: relative;
+  }
+  
+  tr:hover,
+  tr:focus-within {
+    background: #999a9c;
+    outline: none;
+  }
+  
+  td > a:first-child {
+    display: flex;
+    padding: 5px;
+    text-decoration: none;
+    color: inherit;
+    z-index: 0;
+  
+   
+  }

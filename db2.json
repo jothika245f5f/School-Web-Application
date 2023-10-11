@@ -1,0 +1,19 @@
+{
+  "singIn": [
+    {
+      "name": "jyo",
+      "password": "jyo@123",
+      "id": 1
+    },
+    {
+      "name": "jothika",
+      "password": "jothika@123",
+      "id": 2
+    },
+    {
+      "name": "jyo",
+      "password": "jyo@123",
+      "id": 3
+    }
+  ]
+}

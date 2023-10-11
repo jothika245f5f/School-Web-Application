@@ -1,0 +1,108 @@
+{
+  "stuDetails": [
+    {
+      "name": "xaxx",
+      "age": "80990",
+      "sex": "xxx",
+      "nationality": "xxxx",
+      "address": "xxxx",
+      "id": 1
+    },
+    {
+      "name": "aaa",
+      "age": "aaa",
+      "sex": "aaaa",
+      "nationality": "aaaa",
+      "address": "aaaaa",
+      "id": 2
+    },
+    {
+      "name": "bbcbb",
+      "age": "bbbb",
+      "sex": "bbbb",
+      "nationality": "bbbb",
+      "address": "bbbb",
+      "id": 3
+    },
+    {
+      "name": "ccc",
+      "age": "ccc",
+      "sex": "cccc",
+      "nationality": "cccc",
+      "address": "ccccc",
+      "id": 4
+    },
+    {
+      "name": "ddd",
+      "age": "dddd",
+      "sex": "dddd",
+      "nationality": "dddd",
+      "address": "dddd",
+      "id": 5
+    },
+    {
+      "name": "deeee",
+      "age": "eeee",
+      "sex": "eeee",
+      "nationality": "eeee",
+      "address": "eeee",
+      "id": 6
+    },
+    {
+      "name": "ffgff",
+      "age": "ffff",
+      "sex": "ffff",
+      "nationality": "ffff",
+      "address": "ffff",
+      "id": 7
+    },
+    {
+      "name": "gggg",
+      "age": "gggg",
+      "sex": "gggg",
+      "nationality": "gggg",
+      "address": "gggg",
+      "id": 8
+    },
+    {
+      "name": "hhhh",
+      "age": "hhhhh",
+      "sex": "hhhh",
+      "nationality": "hhhhh",
+      "address": "ghhhh",
+      "id": 9
+    },
+    {
+      "name": "yyyyy",
+      "age": "yyyy",
+      "sex": "yyyy",
+      "nationality": "yyyy",
+      "address": "yyyy",
+      "id": 10
+    },
+    {
+      "name": "zzz",
+      "age": "zzz",
+      "sex": "zzzz",
+      "nationality": "zzzz",
+      "address": "zzzzzz",
+      "id": 11
+    },
+    {
+      "name": "wwww",
+      "age": "wwww",
+      "sex": "wwww",
+      "nationality": "wwww",
+      "address": "wwwww",
+      "id": 12
+    },
+    {
+      "name": "niveyyy",
+      "age": "18",
+      "sex": "female",
+      "nationality": "indian",
+      "address": "outside chennai",
+      "id": 13
+    }
+  ]
+}

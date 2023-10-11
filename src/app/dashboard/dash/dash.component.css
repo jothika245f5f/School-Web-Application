@@ -1,0 +1,162 @@
+ /* .navbar-brand{
+    font-weight: 100;
+	display: grid;
+}
+.mb-3{
+    padding-top: 10px;
+  } */
+
+.dash{
+	max-width: 69rem !important;
+}
+.testimonial-area {
+	padding: 40px 0;
+}
+.section-header h4 {
+	color: #f75023;
+	font-weight: 600;
+}
+.section-header {
+	padding-bottom: 15px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: -11%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+}
+.carousel-control-next {
+    right: -6rem;
+}
+.carousel-control-prev {
+    left: 8rem;
+}
+/* .section-header h2 {
+	font-weight: 700;
+}
+.section-header p {
+	color: #6f6b80;
+	width: 40%;
+	margin: auto;
+}
+.icon-area {
+	text-align: center;
+} */
+/* .icon-area i {
+	color: #f75023;
+	font-size: 80px;
+	margin-bottom: 20px;
+}
+.content p {
+	color: #debe3e;
+	width: 60%;
+	margin: auto;
+}
+.year {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 5px solid #6c5e50;
+	margin-top: 50px;
+	background-color: rgb(241, 231, 231);
+}
+.year img {
+	width: 100%;
+}
+.content h5 {
+	font-weight: 900;
+	margin-top: 15px;
+	color: #f75023;
+} */
+/* .testimonial-area {
+	background-size: cover;
+	background-position: center;
+}
+.carousel-indicators {
+	bottom: -80px;
+}
+.carousel-indicators [data-bs-target] {
+	width: 60px;
+	height: 10px;
+	background-color: #f75023;
+} */
+
+.form-area {
+	padding-top: 4%;
+}
+.row.single-form {
+	box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+}
+.left {
+	background: rgb(42, 40, 43);
+	padding: 100px 58px;
+}
+.left h2 {
+	font-family: poppins;
+	color: #fff;
+	font-weight: 700;
+	font-size: 48px;
+}
+.left h2 span {
+	font-weight: 100;
+}
+.single-form{
+    background: #fff;
+}
+.right {
+	padding: 10px 10px;
+	position: relative;
+}
+.right i {
+	position: absolute;
+	font-size: 80px;
+	left: -27px;
+	top: 20%;
+	color: #fff;
+}
+.form-control {
+	border: 2px solid #000;
+}
+.right button {
+	border: none;
+	border-radius: 0;
+	background: #252525;
+	width: 180px;
+	color: #fff;
+	padding: 15px 0;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.right button:hover{
+    background-color: #252525;
+}
+
+.left h2 {
+  font-size: 25px;
+}
+.right {
+  padding: 25px;
+}
+.right i {
+  top: -52px;
+  transform: rotate(90deg);
+  left: 46%;
+}
+    .right button {
+	width: 150px;
+	padding: 12px 0;
+} 
+
